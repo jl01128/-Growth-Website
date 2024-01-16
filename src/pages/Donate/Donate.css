@@ -1,0 +1,124 @@
+.donate-body{
+    width: 96%;
+    height: auto;
+    margin-bottom: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: var(--color-orange);
+}
+
+.donate-body h2{
+    text-align: center;
+    font-size: 3vw;
+    color: var(--color-blue);
+}
+
+.donate-body p{
+    font-size: 1.5vw;
+    color: var(--color-light-green); 
+}
+
+.grid-donate{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.child-donate{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.donate-btn {
+    border-radius: 20px;
+    font-family: Fredoka;
+    background-color: var(--color-blue);
+	color: var(--color-dark-green);
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    width: 15vw;
+    height: 7vw;
+    font-size: 3.5vw;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.donate-btn:hover{
+    background-color: var(--color-light-green); 
+}
+
+.progress{
+    background:rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 40vw;
+}
+
+.progress-value{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px var(--color-yellow);
+    border-radius: 100px;
+    background: var(--color-yellow);
+    height: 30px;
+    width: 0;
+}
+
+.inner-grid{
+    padding: 4% 4% 4% 4%;
+    font-size: 3vw;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.inner-grid h3{
+    color: var(--color-orange);
+}
+
+@keyframes load {
+    0% {width: 0;}
+    100% {width: 100%;}
+}
+
+@media screen and (max-width: 600px){
+
+    .grid-donate{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .donate-body p{
+        font-size: 4vw;
+    }
+
+    .donate-body h2{
+        font-size: 7vw;
+    }
+
+    .inner-grid h3{
+        font-size: 7vw;
+    }
+
+    .inner-grid{
+        font-size: 7vw;
+        padding: 2% 1% 2% 1%;
+    }
+
+    .donate-btn {
+        border-radius: 20px;
+        width: 40vw;
+        height: 20vw;
+        font-size: 7vw;
+    }
+
+    .progress{
+        width: 75vw;
+    }   
+}

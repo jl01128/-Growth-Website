@@ -1,0 +1,162 @@
+.team-body{
+    width: 100%;
+    height: 80vh;
+}
+
+.team-body h2{
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+
+.team-grid-one {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.team-grid-two {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.team-child{
+    width: 23vw;
+    height: 27vw;
+    background-color: var(--color-yellow);
+    color: var(--color-blue);
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.team-child img{
+    margin-top: 7%;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 100px;
+}
+
+.team-child h2{
+    margin-top: 2.5%;
+    font-size: 2vw;
+}
+
+.team-child h3{
+    margin-top: -3%;
+    font-size: 1.3vw;
+}
+
+.links a{
+    font-size: 2.3vw;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#jorge {
+    background-color: #6D4CF1;
+    color: white;
+}
+
+#jorge a:hover{
+    color: var(--color-dark-green);
+}
+
+#kevin {
+    background-color: #2AB2D7;
+    color: white;
+}
+
+#kevin a:hover{
+    color: var(--color-dark-green);
+}
+
+#evan {
+    background-color: #A0BFED;
+    color: white;
+}
+
+#evan a:hover{
+    color: var(--color-dark-green);
+}
+
+#caitlin {
+    background-color: #BFCDDB;
+    color: white;
+}
+
+#caitlin a:hover{
+    color: var(--color-dark-green);
+}
+
+#rachel {
+    background-color: #9443DC;
+    color: white;
+}
+
+#rachel a:hover{
+    color: var(--color-dark-green);
+}
+
+#jackie {
+    background-color: #414E93;
+    color: white;
+}
+
+#jackie a:hover{
+    color: var(--color-dark-green);
+}
+
+@media screen and (max-width: 600px){
+
+    .team-body h2{
+        font-size: 7vw;
+    }
+
+    .team-grid-one {
+        grid-template-columns: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .team-grid-two {
+        grid-template-columns: auto;
+    }
+
+    .team-child{
+        width: 70vw;
+        height: 75vw;
+        margin-bottom: 10%;
+    }
+
+    .team-child img{
+        margin-top: 5%;
+        width: 35vw;
+        height: 35vw;
+    }
+    
+    .team-child h2{
+        margin-top: 2.5%;
+        font-size: 7vw;
+    }
+    
+    .team-child h3{
+        margin-top: -5%;
+        font-size: 4vw;
+    }
+    
+    .links a{
+        font-size: 7vw;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+} 

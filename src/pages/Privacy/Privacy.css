@@ -1,0 +1,72 @@
+.privacy-body{
+    width: 96%;
+    height: auto;
+    margin-bottom: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.privacy-body h2{
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+
+.privacy-body p{
+    font-size: 1.5vw;
+    color: white; 
+    
+}
+
+.privacy-body h1{
+    font-size: 2vw;
+    color: white;
+}
+
+.privacy-body li{
+    margin-left: 3%;
+    font-size: 1.2vw;
+    color: white;
+}
+
+#privacyCenter {
+    text-align: center;
+}
+
+#contactInfo{
+    margin-left: 3%;
+}
+
+@media screen and (max-width: 600px){
+
+    .privacy-body{
+        margin-bottom: 3%;
+    }
+    
+    .privacy-body h2{
+        font-size: 7vw;
+    }
+    
+    .privacy-body p{
+        font-size: 4vw;
+    }
+    
+    .privacy-body h1{
+        font-size: 5.5vw;
+    }
+    
+    .privacy-body li{
+        margin-left: 5%;
+        font-size: 3.8vw;
+    }
+    
+    #privacyCenter {
+        text-align: center;
+    }
+    
+    #contactInfo{
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+
+}
