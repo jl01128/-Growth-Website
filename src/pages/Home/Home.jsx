@@ -10,10 +10,6 @@ const Home = () => {
             <Navbar></Navbar>
             <div className="home-body">
                 <div className="googleBtn">
-                    <a className="btn btn-google" href="" 
-                    title="Google Play" target="_blank" rel="noreferrer">
-                        Google Play
-                    </a>
                 </div>
             </div>
         </div>
