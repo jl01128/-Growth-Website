@@ -28,7 +28,7 @@ const Team = () => {
                         <h2 id="kevin">Kevin Bopp</h2>
                         <h3 id="kevin">frontend developer</h3>
                         <div className="links">
-                            <a href='https://github.com/VictorYue'target="_blank" rel="noreferrer" id="kevin"><FontAwesomeIcon icon={faGithub}/></a>
+                            <a href='https://github.com/kevinbopp'target="_blank" rel="noreferrer" id="kevin"><FontAwesomeIcon icon={faGithub}/></a>
                             <a href='https://www.linkedin.com/in/kevin-bopp-34a471292/' target="_blank" rel="noreferrer" id="kevin"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                        </div>
                     </div>
@@ -48,7 +48,7 @@ const Team = () => {
                         <h2 id="caitlin">Caitlin Fabian</h2>
                         <h3 id="caitlin">frontend developer</h3>
                         <div className="links">
-                            <a href='https://github.com/JulioC-19' target="_blank" rel="noreferrer" id="caitlin"><FontAwesomeIcon icon={faGithub}/></a>
+                            <a href='https://github.com/Caitlin-Fabian' target="_blank" rel="noreferrer" id="caitlin"><FontAwesomeIcon icon={faGithub}/></a>
                             <a href='https://www.linkedin.com/in/caitlin-fabian/' target="_blank" rel="noreferrer" id="caitlin"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                        </div>
                     </div>

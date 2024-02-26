@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar";
 
 const About = () => {
     return (
-        <div classname="about" style={{ backgroundImage: 'url("/aboutBackground.png")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%' }}>
+        <div classname="about" style={{ backgroundImage: 'url("/About.svg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%' }}>
             <Helmet bodyAttributes={{style: 'background-color : #00093B'}}/>
             <Navbar></Navbar>
             <div className="about-body" >

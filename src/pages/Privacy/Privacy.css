@@ -1,9 +1,7 @@
 .privacy-body{
-    width: 96%;
-    height: auto;
-    margin-bottom: 2.5%;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 100%;
+    height: 79vh;
+
 }
 
 .privacy-body h2{
@@ -13,8 +11,15 @@
 }
 
 .privacy-body p{
+    margin-top: 2,5%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 1.5vw;
     color: white; 
+    background-color: rgba(149, 67, 220, 0.7);
+    padding: 40px; /* Adjust this value for inner spacing if needed */
+    height: 325px; /* Adjust this value to increase the height */
+    border-radius: 50px;
     
 }
 

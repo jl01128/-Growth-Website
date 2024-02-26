@@ -1,38 +1,8 @@
 .home-body{
     width: 100%;
-    height: 80vh;
-    display: grid;
+    height: 84vh;
 }
 
-.grid-container{
-    display: grid;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    grid-template-columns: auto auto auto auto auto auto;
-    justify-items: center;
-}
-
-.grid-child{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: var(--color-light-green);
-    font-size: 100px;
-    padding: 1% 1% 1% 1%;
-}
-
-.grid-child img{
-    width: 200px;
-    height: 165px;
-}
-
-.grid-nested{
-    display: none;
-}
 
 @font-face{font-family:"fontfutura";src:url("https://cdn.rawgit.com/KompiAjaib/font/master/product-sans-regular.ttf") format("ttf");font-weight:normal;font-style:normal;}
 a.btn-google{color:#fff}
@@ -46,22 +16,6 @@ a.btn-google{color:#fff}
 .btn-google:before{content:"";background-image:url(https://4.bp.blogspot.com/-52U3eP2JDM4/WSkIT1vbUxI/AAAAAAAArQA/iF1BeARv2To-2FGQU7V6UbNPivuv_lccACLcB/s30/nexus2cee_ic_launcher_play_store_new-1.png);background-size:cover;background-repeat:no-repeat;width:30px;height:30px;position:absolute;left:6px;top:50%;margin-top:-15px}
 .btn-google:after{content:"DOWNLOAD ON";position:absolute;top:5px;left:40px;font-size:10px;font-weight:400}
 
-.googleBtn{
-    margin: auto;
-    justify-self: center;
-    align-self: center;
-    margin-top: 70vh;
-}
-
-@media screen and (max-width: 800px) {
-    .grid-child{
-        font-size: 90px;
-    }
-    .grid-child img{
-        width: 130px;
-        height: auto;
-    } 
-}
 
 @media screen and (max-width: 600px) {
     .home-body{
@@ -70,26 +24,6 @@ a.btn-google{color:#fff}
 
     .home-body h2{
         font-size: 9vw;
-    }
-
-    .grid-container{
-        margin-top: 3%;
-        grid-template-rows: auto auto auto auto auto auto;
-        grid-template-columns: auto;
-    }
-
-    .grid-child{
-        font-size: 60px;
-    }
-    
-    .grid-child img{
-        width: 70px;
-        height: auto;
-    }
-
-    .grid-nested{
-        display: grid;  
-        grid-template-columns: 80px 80px;
     }
 
     #hide{

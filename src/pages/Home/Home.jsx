@@ -5,12 +5,10 @@ import Navbar from "../../components/Navbar";
 
 const Home = () => {
     return (
-        <div className="home" style={{ backgroundImage: 'url("/homeBackground.png")', alignContent: "center"}}>
+        <div className="home" style={{ backgroundImage: 'url("/homeBackground.png")', backgroundSize: 'cover'}}>
             <Helmet bodyAttributes={{style: 'background-color: #00093B'}}/>
             <Navbar></Navbar>
-            <div className="home-body">
-                <div className="googleBtn">
-                </div>
+            <div className="home-body" >
             </div>
         </div>
     )
