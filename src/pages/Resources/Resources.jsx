@@ -10,7 +10,7 @@ import Navbar from "../../components/Navbar";
 
 const Resources = () => {
     return (
-        <div className="resources" style={{ backgroundImage: 'url("/download.svg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%' }}>
+        <div className="resources" style={{ backgroundImage: 'url("/downloadBackground.png")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%' }}>
             <Helmet bodyAttributes={{style: 'background-color: #00093B'}}/>
             <Navbar></Navbar>
             <div className="resources-body">

@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar";
 
 const Privacy = () => {
     return (
-        <div className="privacy" style={{ backgroundImage: 'url("/privacy.svg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%'}}>
+        <div className="privacy" style={{ backgroundImage: 'url("/privacyBackground.png")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%'}}>
             <Helmet bodyAttributes={{style: 'background-color : #00093B'}}/>
             <Navbar></Navbar>
             <div className="privacy-body">
