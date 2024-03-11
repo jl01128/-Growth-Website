@@ -88,16 +88,11 @@
     .about-body h2{
         font-size: 7vw;
     }
-    
-    .grid-about {
-        grid-template-rows: auto auto;
-        grid-template-columns: auto;
-    }
 
     .grid-child-about{
-        width: 85vw;
-        height: 85vw;
-        margin-bottom: 7%;
+        width: 100vw;
+        height: 125vw;
+        margin-bottom: 5%;
     }
 
     .grid-linear{
