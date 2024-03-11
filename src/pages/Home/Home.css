@@ -19,11 +19,7 @@ a.btn-google{color:#fff}
 
 @media screen and (max-width: 600px) {
     .home-body{
-        background-size: cover; 
-    }
-
-    .home-body h2{
-        font-size: 9vw;
+        background-size: contain; 
     }
 
     #hide{
