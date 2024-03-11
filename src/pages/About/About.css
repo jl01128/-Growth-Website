@@ -76,6 +76,11 @@
 }
 
 @media screen and (max-width: 600px){
+    .about-body{
+        background-size: cover;
+    }
+
+
     .about-body p{
         font-size: 4vw;
     }

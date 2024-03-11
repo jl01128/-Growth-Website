@@ -45,7 +45,7 @@
 @media screen and (max-width: 600px){
 
     .privacy-body{
-        margin-bottom: 3%;
+        background-size: cover;
     }
     
     .privacy-body h2{

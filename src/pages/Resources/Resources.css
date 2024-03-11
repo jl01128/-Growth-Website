@@ -62,7 +62,7 @@
     
     .resources-body {
         /* Adjust background image size */
-        background-size: contain; /* You can change 'contain' to 'cover' or specific dimensions */
+        background-size: cover; /* You can change 'contain' to 'cover' or specific dimensions */
         background-repeat: no-repeat; /* Ensures the background image is not repeated */
         background-position: center; /* Centers the background image */
     }

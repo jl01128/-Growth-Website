@@ -117,6 +117,10 @@
 
 @media screen and (max-width: 600px){
 
+    .team-body{
+        background-size: cover;
+    }
+
     .team-body h2{
         font-size: 7vw;
     }
