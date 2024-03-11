@@ -118,7 +118,7 @@
 @media screen and (max-width: 600px){
 
     .team-body{
-        background-size: cover;
+        background-size: auto;
     }
 
     .team-body h2{
