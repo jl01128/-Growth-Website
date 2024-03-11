@@ -58,6 +58,15 @@
 }
 
 @media screen and (max-width: 600px){
+    
+    
+    .resources-body {
+        /* Adjust background image size */
+        background-size: contain; /* You can change 'contain' to 'cover' or specific dimensions */
+        background-repeat: no-repeat; /* Ensures the background image is not repeated */
+        background-position: center; /* Centers the background image */
+    }
+    
     .topHeader{
         font-size: 7vw;
         padding-top: 3%;
@@ -85,7 +94,7 @@
     }
     
     .grid-child-resources h3{
-        color: var(--color-yellow);
+        color: white;
         text-align: center;
         font-size: 5vw;
     }
