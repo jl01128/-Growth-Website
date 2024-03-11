@@ -24,13 +24,13 @@
 
 @media screen and (max-width: 600px){
     .about-body{
-        height: 900px;
+        background-image: auto;
     }
 
     .about-body p{
-        font-size: 4vw;
-        width: 55vw;
-        height: 125vw;
+        font-size: auto;
+        width: auto;
+        height: auto;
     }
     
     .about-body h2{
