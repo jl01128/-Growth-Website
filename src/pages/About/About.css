@@ -83,6 +83,8 @@
 
     .about-body p{
         font-size: 4vw;
+        width: 90vw;
+        height: 150vw;
     }
     
     .about-body h2{
@@ -90,9 +92,9 @@
     }
 
     .grid-child-about{
-        width: 100vw;
-        height: 125vw;
-        margin-bottom: 5%;
+        width: 85vw;
+        height: 85vw;
+        margin-bottom: 7%;
     }
 
     .grid-linear{
