@@ -64,7 +64,7 @@
     width: 40px;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: var(--color-light-green);
+    background-color: #BFCDDB;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     color: var(--color-dark-green);
@@ -97,7 +97,7 @@
       left: 0;
       width: 100%;
       height: calc(100vh - 90px);
-      background-color: var(--color-light-green);
+      background-color: #BFCDDB;
       display: none;
     }
   
@@ -108,7 +108,7 @@
   
     .navigation-menu li a {
       font-size: larger;
-      color: var(--color-dark-green);
+      color: #BFCDDB;
       width: 100%;
       padding: 1.5rem 0;
     }
