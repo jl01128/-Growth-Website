@@ -16,21 +16,21 @@ const Home = () => {
                     }
                     .home-image {
                         position: absolute;
-                        top: 48%;
+                        top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         z-index: -1; /* Ensure the image is behind other elements */
-                        height: 150%;
+                        height: 140%;
                         width: 100%
                     }
                     .rocket-image {
                         position: absolute;
-                        top: 65%;
+                        top: 55%;
                         left: 25%;
                         transform: translate(-50%, -50%);
                         z-index: -1; /* Ensure the image is behind other elements */
-                        height: 60%;
-                        width: 30%
+                        height: 36%;
+                        width: 25%
                     }
                 `}</style>
             </Helmet>
