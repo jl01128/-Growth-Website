@@ -1,7 +1,10 @@
-.privacy-body{
-    width: 100%;
-    height: 79vh;
-
+.privacy-section{
+    background-color: rgba(149, 67, 220, 0.7);
+    margin-bottom: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 .privacy-body h2{
@@ -16,11 +19,6 @@
     margin-right: 5%;
     font-size: 1.5vw;
     color: white; 
-    background-color: rgba(149, 67, 220, 0.7);
-    padding: 40px; /* Adjust this value for inner spacing if needed */
-    height: 325px; /* Adjust this value to increase the height */
-    border-radius: 50px;
-    
 }
 
 .privacy-body h1{
@@ -43,15 +41,11 @@
 }
 
 @media screen and (max-width: 600px){
-
-    .privacy-body{
-        background-size: auto;
-    }
     
     .privacy-body h2{
         font-size: 7vw;
     }
-    
+
     .privacy-body p{
         font-size: 4vw;
         height: auto;

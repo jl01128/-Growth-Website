@@ -19,10 +19,8 @@ a.btn-google{color:#fff}
 
 @media screen and (max-width: 600px) {
     .home-body{
-        background-size: auto; 
+        height: auto;
+        width: auto;
     }
 
-    #hide{
-        display: none;
-    }
 } 

@@ -10,11 +10,32 @@ import Navbar from "../../components/Navbar";
 
 const Resources = () => {
     return (
-        <div className="resources" style={{ backgroundImage: 'url("/downloadBackground.png")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%' }}>
-            <Helmet bodyAttributes={{style: 'background-color: #00093B'}}/>
+        <div className="resources">
+            <Helmet>
+                <style>{`
+                    body {
+                        background-image: url("/starBackground.svg");
+                    }
+                    .resources-body {
+                        position: relative; /* Ensure the positioning context */
+                    }
+                    .earth-image {
+                        position: absolute;
+                        top: 45%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        z-index: -1; /* Ensure the Image is behind other elements */
+                        height: 105%;
+                        width: 100%
+                    }
+                `}</style>
+            </Helmet>
+
             <Navbar></Navbar>
+            
             <div className="resources-body">
-                <div className='topHeader'>Resources</div>
+                <img src="/earth.svg" alt="Earth" className="earth-image" />
+                <h2>Resources</h2>
                 <div className="grid-container-resources">
                     <div className="grid-child-resources" id='buttonOne'><a href='mailto:contactarroseplus@gmail.com' target="_blank" rel="noreferrer"><button className="iconBtn"><FontAwesomeIcon icon={faEnvelope}/></button></a></div>
                     <div className="grid-child-resources" id='buttonTwo'><a href="https://github.com/jorgetrejo36/explore" target="_blank" rel="noreferrer"><button className="iconBtn"><FontAwesomeIcon icon={faGithub}/></button></a></div>
@@ -24,6 +45,8 @@ const Resources = () => {
                     <div className="grid-child-resources" id='textThree'><h3>download the app</h3></div>
                 </div>
             </div>
+            
+            
         </div>   
     )
 };

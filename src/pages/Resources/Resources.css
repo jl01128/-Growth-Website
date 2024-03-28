@@ -6,9 +6,7 @@
     height: 84vh;
 }
 
-.topHeader{
-    padding-top: 1%;
-    height: 80px;
+.resources-body h2{
     text-align: center;
     font-size: 3vw;
     color: white;
@@ -57,19 +55,14 @@
     font-size: 1.5vw;
 }
 
+
+
 @media screen and (max-width: 600px){
     
-    
-    .resources-body {
-
-        background-size: auto;
-    }
-    
-    .topHeader{
+    .resources-body h2{
         font-size: 7vw;
-        padding-top: 3%;
-        height: 40px;
     }
+
     .grid-container-resources {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto auto auto;

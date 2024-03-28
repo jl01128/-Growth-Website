@@ -8,10 +8,30 @@ import Navbar from "../../components/Navbar";
 
 const Team = () => {
     return (
-        <div className="Meet the Developers" style={{ backgroundImage: 'url("/teamBackground.png")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100%' }}>
-        <Helmet bodyAttributes={{style: 'background-color: #00093B'}}/>
+        <div className="Meet the Developers">
+        <Helmet>
+                <style>{`
+                    body {
+                        background-image: url("/starBackground.svg");
+                    }
+                    .team-body {
+                        position: relative; /* Ensure the positioning context */
+                    }
+                    .mars-image {
+                        position: absolute;
+                        top: 100%;
+                        left: 25%;
+                        transform: translate(-50%, -50%);
+                        z-index: -1; /* Ensure the Image is behind other elements */
+                        height: 88%;
+                        width: 88%
+                    }
+                `}</style>
+        </Helmet>
             <Navbar></Navbar>
+            <img src="/mars.svg" alt="Mars" className="mars-image"/>
             <div className="team-body">
+                
                 <h2>Team</h2>
                 <div className="team-grid-one">
                     <div className="team-child" id="jorge">
