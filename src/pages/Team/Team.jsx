@@ -35,7 +35,7 @@ const Team = () => {
                 <h2>Team</h2>
                 <div className="team-grid-one">
                     <div className="team-child" id="jorge">
-                       <img src="/jorge.svg" alt="profile pic"></img>
+                       <img src="/jorge.png" alt="profile pic"></img>
                        <h2 id="jorge">Jorge Trejo</h2>
                        <h3 id="jorge">project manager</h3>
                        <div className="links">
@@ -44,7 +44,7 @@ const Team = () => {
                        </div>
                     </div>
                     <div className="team-child" id="kevin">
-                        <img src="/kevin.svg" alt="profile pic"></img>
+                        <img src="/kevin.png" alt="profile pic"></img>
                         <h2 id="kevin">Kevin Bopp</h2>
                         <h3 id="kevin">frontend developer</h3>
                         <div className="links">
@@ -53,7 +53,7 @@ const Team = () => {
                        </div>
                     </div>
                     <div className="team-child" id="evan">
-                        <img src="/evan.svg" alt="profile pic"></img>
+                        <img src="/evan.png" alt="profile pic"></img>
                         <h2 id="evan">Evan Daniel</h2>
                         <h3 id="evan">frontend developer</h3>
                         <div className="links">
@@ -64,7 +64,7 @@ const Team = () => {
                 </div>
                 <div className="team-grid-two">
                     <div className="team-child" id="caitlin">
-                        <img src="/caitlin.svg" alt="profile pic"></img>
+                        <img src="/caitlin.png" alt="profile pic"></img>
                         <h2 id="caitlin">Caitlin Fabian</h2>
                         <h3 id="caitlin">frontend developer</h3>
                         <div className="links">
@@ -73,7 +73,7 @@ const Team = () => {
                        </div>
                     </div>
                     <div className="team-child" id="rachel">
-                        <img src="/rachel.svg" alt="profile pic"></img>
+                        <img src="/rachel.png" alt="profile pic"></img>
                         <h2 id="rachel">Rachel Dauns</h2>
                         <h3 id="rachel">backend developer</h3>
                         <div className="links">
@@ -82,7 +82,7 @@ const Team = () => {
                        </div>
                     </div>
                     <div className="team-child" id="jackie">
-                        <img src="/jackie.svg" alt="profile pic"></img>
+                        <img src="/jackie.png" alt="profile pic"></img>
                         <h2 id="jackie">Jackie Lin</h2>
                         <h3 id="jackie">backend developer</h3>
                         <div className="links">
