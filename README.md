@@ -1,4 +1,4 @@
-# [Explore Website](https://explorelearn.netlify.app)
+# [Explore Website](https://explorelearn.org)
 
 https://explorelearn.org
 
