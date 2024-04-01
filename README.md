@@ -1,6 +1,4 @@
-# [Explore Website](https://explorelearn.org)
-
-https://explorelearn.org
+# [Explore Website](explorelearn.netlify.app)
 
 - Developed with React
 - Deployed through Netlify 
